@@ -1,0 +1,20 @@
+{
+  "name": "lu-test-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:e2e:smoke": "npx playwright test --grep @smoke"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "@playwright/test": "^1.39.0",
+    "@types/node": "^20.6.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
